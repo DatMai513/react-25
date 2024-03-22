@@ -16,6 +16,10 @@ import AutoCompleteSearch from './components/search-autocomplete/index.jsx';
 import TicTacToe from './components/tictactoe/index.jsx';
 import FeatureFlagGlobalState from './components/feature-flag/context/index.jsx';
 import FeatureFlag from './components/feature-flag/index.jsx';
+import UseFetchHookTest from './components/use-fetch/test.jsx';
+import UseWindowResizeTest from './components/use-responsive/test.jsx';
+import ScrollTopBottom from './components/scroll-top-bottom/index.jsx';
+import ScrollToSection from './components/scroll-top-bottom/section-scroll.jsx';
 
 function App() {
   return (
@@ -63,13 +67,24 @@ function App() {
       {/* <TicTacToe/>  */}
 
       {/* Feature Flag component */}
-      <FeatureFlagGlobalState>
+      {/* <FeatureFlagGlobalState>
         <FeatureFlag/>
-      </FeatureFlagGlobalState> 
+      </FeatureFlagGlobalState>  */}
+
+      {/* Custom Fetch Hook component */}
+      {/* <UseFetchHookTest/>  */}
 
       {/* Click Outisde Hook component */}
       {/* <UseOnClickOutsideTest/>  */}
 
+      {/* Window Size Hook component */}
+      {/* <UseWindowResizeTest/>  */}
+
+      {/* Max Scroll component */}
+      {/* <ScrollTopBottom/>  */}
+
+      {/* Section Scroll component */}
+      <ScrollToSection/> 
 
     </div>
   );
